@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading-text">
+            <h1>Available Cars</h1>
+            <p>There are 15 cars that match your criteria</p>
+        </div>
+        <div class="search-bar">
+            <input class="search-box" type="search">
+            <img class="search-icon" src="assets/search.svg" alt="magnifying glass">
+            <button class="filter-menu-btn"><img src="assets/menu.svg" alt="menu" /></button>
+            <div class="filter-menu">
+                <div class="field">
+                    <input type="checkbox" value="new" id="new">
+                    <label for="new">New Cars</label>
+                </div>
+                <div class="field">
+                    <input type="checkbox" value="used" id="used">
+                    <label for="used">Used Cars</label>
+                </div>
+                <div class="field">
+                    <input type="checkbox" value="dealership" id="dealership">
+                    <label for="dealership">Dealership</label>
+                </div>
+                <div class="field">
+                    <input type="checkbox" value="owner" id="owner">
+                    <label for="owner">For sale by owner</label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Car Details</th>
+                <th>Location</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>2017 Toyota Highlander V4</td>
+                <td>1944 Scrimba Ln
+                    Youngstown,<br> OH 44481</td>
+                <td>$23,900</td>
+                <td><img class="like-btn" src="assets/save.svg" alt="Save"></td>
+            </tr>
+            <tr>
+                <td>2017 Toyota Highlander V4</td>
+                <td>1944 Scrimba Ln
+                    Youngstown,<br> OH 44481</td>
+                <td>$23,900</td>
+                <td><img class="like-btn" src="assets/save.svg" alt="Save"></td>
+            </tr>
+            <tr>
+                <td>2017 Toyota Highlander V4</td>
+                <td>1944 Scrimba Ln
+                    Youngstown,<br> OH 44481</td>
+                <td>$23,900</td>
+                <td><img class="like-btn" src="assets/save.svg" alt="Save"></td>
+            </tr>
+            <tr>
+                <td>2017 Toyota Highlander V4</td>
+                <td>1944 Scrimba Ln
+                    Youngstown,<br> OH 44481</td>
+                <td>$23,900</td>
+                <td><img class="like-btn" src="assets/save.svg" alt="Save"></td>
+            </tr>
+        </table>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
